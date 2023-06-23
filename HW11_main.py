@@ -156,43 +156,4 @@ class Record:
         
 
 if __name__ == "__main__":
-    name = Name('Bill')
-    phone = Phone('1234567890')
-    bd = Birthday('19.06.2001')
-    rec = Record(name, phone, bd)
-    AB = AddressBook()
-    AB.add_record(rec)
-
-    # assert isinstance(AB['Bill'], Record)
-    # assert isinstance(AB['Bill'].name, Name)
-    # assert isinstance(AB['Bill'].phones, list)
-    # assert isinstance(AB['Bill'].phones[0], Phone)
-    # assert isinstance(AB['Bill'].phones[0], Phone)
-    # assert AB['Bill'].phones[0].value == '1234567890'
-    # print('All Ok)')
-
-    # name2 = Name('John')
-    # phone2 = Phone('51646516546')
-    # bd2 = Birthday('1/01/2000')
-    # rec2 = Record(name2, phone2, bd2)
-    # AB.add_record(rec2)
-    # rec2.add_new_phone('95125875423')
-    # AB['Bill'].add_new_phone('987564157')
-
-    # AB.show_all()
-    # # AB.del_record('Bill')
-    # # AB.show_all()
-
-    # print(bd2)
-    # print(phone2.value)
-    # print(AB['Bill'].phones)
-    # print(rec2.phones)
-
-    # print(rec.days_to_birthday())
-    # # print(AB.data['Bill'].days_to_birthday())
-    # print(AB['Bill'].days_to_birthday())
-
-    
-    # for i in AB:
-    #     print(i)
-    # print(rec2)
+    pass
